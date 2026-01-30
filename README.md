@@ -1,6 +1,4 @@
-# 🌐 Responsive Navbar Website
-
-A simple, modern website featuring a **sticky navigation bar** built with **Flexbox**, smooth **button hover/touch animations**, and clean UI styling. The navbar stays fixed at the top while scrolling, and only the **buttons change color on interaction**, keeping the background consistent.
+# 🌐 Responsive Website
 
 ---
 
@@ -66,19 +64,6 @@ nav button:active {
 
 ## 📸 Preview
 
-<p align="center">
-  <img src="screenshots/navbar-default.png" alt="Navbar Default" width="800" />
-</p>
-
-<p align="center">
-  <img src="screenshots/button-hover.png" alt="Button Hover State" width="800" />
-</p>
-
-<p align="center">
-  <img src="screenshots/button-active-mobile.png" alt="Button Active Mobile" width="800" />
-</p>
-
----
 
 ## 🧠 Learning Outcomes
 

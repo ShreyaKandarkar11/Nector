@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart - Flower Shop</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="logo">NECTOR</div>
         <ul class="nav-links">
@@ -14,17 +21,29 @@
         </ul>
     </nav>
 
+    <!-- CART -->
     <section class="cart-section">
         <h2>Your Cart</h2>
-        <div id="cart-items"></div>
-        <p>Total: <span id="cart-total">0</span></p>
-        <button id="checkout" class="btn">Proceed to Checkout</button>
-    </section>
-    <div class="social-icons">
-    <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
-    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>  
 
+        <div class="cart-container">
+            <div id="cart-items" class="cart-items"></div>
+
+            <div class="cart-summary">
+                <p class="total">Total: <span id="cart-total">0</span></p>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIALS -->
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+    </div>
+
+    <!-- SCRIPTS (BOTTOM ONLY) -->
     <script src="script.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>
